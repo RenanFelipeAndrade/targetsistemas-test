@@ -37,7 +37,7 @@
 
 // 1) O valor da soma será = 1+2+3+4...+13 = 91
 
-function questionTwo(number: number) {
+function questionTwo(number) {
   let prevNumber = 1;
   let prevNumber2 = 0;
   for (
@@ -67,7 +67,7 @@ console.log([1, 5, 43, 78, 200, 377].map(questionTwo));
 // resolvendo para o caminhão: 80=100t -> t=100/80 = 1,25 horas + tempo do pedágio -> 1+1/4 + 2*1/12 -> 1+1/4+1/6 = (12+3+2)/12 = 17/12 = 1,4 horas
 // Portanto, quando os veículos se encontrarem, o carro terá percorrido 100 km em 54,6 minutos e o caminhão terá percorrido a mesma distância em 85 minutos. Isso significa que o carro estará mais próximo de Ribeirão Preto, já que ele se afasta em uma distância menor em um tempo menor do que o caminhão.
 
-function questionFive(string: string) {
+function questionFive(string) {
   let reversedString = "";
   for (let index = string.length - 1; index >= 0; index--)
     reversedString += string[index];
